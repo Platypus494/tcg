@@ -375,7 +375,6 @@ input[type="radio"][id="re"]:checked~.mh {
 .booster {
     width: 230px;
     height: 385px;
-    background-color: black;
 }
 
 .booster:hover {
