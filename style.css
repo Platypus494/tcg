@@ -202,10 +202,14 @@ h3 {
     padding: 10px;
 }
 
+.actu-card h3 {
+    padding-left: 30px;
+}
 .actu-img {
     width: 600px;
     height: 150px;
     border-radius: 30PX;
+    object-fit: cover;
 }
 
 .actu-txt {
@@ -515,6 +519,7 @@ ol li {
 
 footer {
     background-color: #1A324A;
+    padding-bottom: 50px;
 }
 
 .item {
