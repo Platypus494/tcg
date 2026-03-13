@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Police roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <title>Débuter</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu_header">
+            <a href="index.html">
+                <img class="logo" src="img/gamer.png" alt="logo">
+            </a>
+            <div class="link">
+                <ul>
+                    <li><a class="element" href="learn.html">Pour débuter</a></li>
+                    <li><a class="element" href="booster.html">Boosters</a></li>
+                    <li><a class="element" href="trade.html">Echanger</a></li>
+                    <li><a class="element" href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="other">
+                <img class="switch-image" src="img/dark.png" alt="switch dark mode">
+                <select class="language" name="language" id="language">
+                    <option value="fr">fr &#x1F1EB;&#x1F1F7;</option>
+                    <option value="en">en &#127468;&#127463; </option>
+                    <option value="es">es &#127466;&#127480;</option>
+                    <option value="jp">jp &#x1f1ef;&#x1f1f5;</option>
+                </select>
+                <a href="profil.html"><img class='logo' src="img/profil.png" alt="profil"></a>
+            </div>
+        </nav>
+        <nav class="burger-menu">
+            <img class="logo" src="img/gamer.png" alt="logo">
+            <img class="burger-logo logo" src="img/burger-menu.png" alt="burger-logo">
+        </nav>
+    </header>
+    <div class="burger-list hidden">
+        <div class="list">
+            <img class="close-logo logo" src="img/close.png" alt="close-logo">
+            <ul>
+                <li><a class="element" href="learn.html">Pour débuter</a></li>
+                <li><a class="element" href="booster.html">Boosters</a></li>
+                <li><a class="element" href="trade.html">Echanger</a></li>
+                <li><a class="element" href="faq.html">FAQ</a></li>
+                <li><a class="element" href="profil.html">Profil</a></li>
+                <li>
+                    <div class="flex">
+                        <img class="switch-image2" src="img/dark.png" alt="switch dark mode">
+                        <select class="language" name="language" id="language">
+                            <option value="fr">fr &#x1F1EB;&#x1F1F7;</option>
+                            <option value="en">en &#127468;&#127463; </option>
+                            <option value="es">es &#127466;&#127480;</option>
+                            <option value="jp">jp &#x1f1ef;&#x1f1f5;</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="image-txt-center dark-mode">
+        <img class="main-image" src="img/tcg_player.webp" alt="tcg player">
+        <h1 class="txt">Pour débuter</h1>
+    </div>
+
+    <section class="goal-section dark-mode">
+        <h2>Le but</h2>
+        <div class="image-texte">
+            <img class="illustration" src="img/goal.jpg" alt="goal">
+            <p class="text">Dans une arène où se rencontrent des héros venus de nombreux univers vidéoludiques,
+                les plus grands stratèges s’affrontent pour prouver leur valeur. Chaque combattant possède
+                ses propres compétences, son histoire et sa puissance. Les équipes se forment, les cartes
+                se posent une à une, et la bataille commence.
+
+                Dans ce TCG, votre objectif est simple : construire la meilleure équipe possible et vaincre
+                votre adversaire grâce à votre stratégie. À chaque tour, vous devrez jouer intelligemment vos cartes,
+                anticiper les actions de votre opposant et utiliser les capacités de vos personnages au bon moment.
+
+                La victoire ne dépend pas seulement de la puissance de vos cartes, mais aussi de la manière
+                dont vous les utilisez. Trouver les bonnes combinaisons, prévoir plusieurs coups à l’avance
+                et adapter votre stratégie face à chaque adversaire seront les clés pour remporter la partie.
+
+                Préparez votre deck, affinez votre stratégie et entrez dans l’arène.
+                Seuls les meilleurs joueurs parviendront à maîtriser toutes les possibilités du jeu
+                et à s’imposer face à leurs adversaires.</p>
+        </div>
+    </section>
+
+    <section class="card-type-section dark-mode">
+        <div class="image-texte">
+            <div class="type-container">
+                <h2>Les types de cartes</h2>
+                <div class="list-type">
+                    <img class="first-type scale" src="img/dps.png" alt="dps logo">
+                    <img class="second-type scale opacity" src="img/tank.png" alt="tank logo">
+                    <img class="third-type scale opacity" src="img/healer.png" alt="healer logo">
+                </div>
+                <h3 class="title-type">1) dps</h3>
+                <p class="text-type">Les cartes DPS sont spécialisées dans l’attaque. Leur rôle est d’infliger un
+                    maximum de dégâts
+                    à l’équipe adverse afin de prendre l’avantage rapidement. Utilisées au bon moment, elles peuvent
+                    renverser une partie et éliminer les menaces les plus dangereuses.</p>
+            </div>
+            <img class="image-type" src="img/dps.png" alt="dps logo">
+        </div>
+    </section>
+    <section class="board dark-mode">
+        <h2>Position sur le plateau</h2>
+        <img class="main-image" src="img/board.jpg" alt="board">
+    </section>
+    <section class="round-section dark-mode">
+        <h2>Deroulement d'un tour</h2>
+        <div class="image-texte">
+            <ol>
+                <li><strong>Début du tour</strong> : Le joueur actif commence son tour et prépare ses cartes.</li>
+                <br>
+                <li><strong>Pioche</strong> : Le joueur pioche une carte dans son deck pour l’ajouter à sa main.</li>
+                <br>
+                <li><strong>Phase de jeu</strong> : Le joueur peut poser une ou plusieurs cartes depuis sa main
+                    pour renforcer son équipe ou préparer sa stratégie.</li>
+                <br>
+                <li><strong>Phase d’action</strong> : Les cartes en jeu peuvent utiliser leurs capacités
+                    ou attaquer les cartes adverses selon la stratégie du joueur.</li>
+                <br>
+                <li><strong>Résolution des effets</strong> : Les effets des cartes sont appliqués
+                    (dégâts, soins, bonus ou autres capacités).</li>
+                <br>
+                <li><strong>Fin du tour</strong> : Le joueur termine son tour et l’adversaire commence le sien.</li>
+            </ol>
+            <img class="illustration" src="img/round.png" alt="round start">
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="item">
+                <h2>Notes importantes</h2>
+                <p>Toutes les images, textes et données de ce site web ne peuvent être reproduits sans autorisation.
+                    Veuillez noter que les images utilisées sur ce site peuvent différer du produit final, car celui-ci
+                    est
+                    encore en cours de développement. </p>
+            </div>
+
+            <div class="item">
+                <h2>Communauté</h2>
+                <div class="list-type">
+                    <img class="logo scale" src="img/discord.png" alt="discord">
+                    <img class='logo scale' src="img/youtube.png" alt="youtube">
+                    <img class='logo scale' src="img/insta.png" alt="instagram">
+                </div>
+            </div>
+        </div>
+        <div class="nav-center">
+            <nav>
+                <ul>
+                    <li><a class="element" href="#">À propos</a></li>
+                    <li><a class="element" href="#">Mentions légales</a></li>
+                    <li><a class="element" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+<script src="main.js"></script>
+<script src="tab.js"></script>
+
+</html>
