@@ -139,12 +139,12 @@ h3 {
 }
 
 .dark-mode {
-    background: linear-gradient(#176b78, #1D536D, #1A324A);
+    background: linear-gradient(#176b78, #145a65, #124f5a);
     color: white
 }
 
 .light-mode {
-    background: linear-gradient(#62bac8, #3889b2, #345f8a);
+    background: linear-gradient(#62bac8, #59a9b6, #529da8);
     color: black;
 }
 
