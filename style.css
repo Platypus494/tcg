@@ -479,6 +479,10 @@ button:hover {
     .txt{
         font-size: 50px;
     }
+
+    footer h2 {
+        font-size: 20px;
+    }
 }
 
 
