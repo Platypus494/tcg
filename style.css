@@ -114,6 +114,10 @@ header * {
     list-style: none;
 }
 
+.list ul li:hover{
+    background-color: #124f5a;
+}
+
 .flex {
     display: flex;
     justify-content: center;
