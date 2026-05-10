@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Adresse email invalide";
         return;
     }
-
+    //On vérifie que le mot de passe est bon
     $stmt = $pdo->prepare('SELECT * FROM utilisateurs WHERE email = :email');
     $stmt->execute(['email' => $email]);
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
