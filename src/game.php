@@ -10,8 +10,8 @@ try {
     $response = $client->request('POST', 'https://api.igdb.com/v4/multiquery', [
         'headers' => [
             'Accept' => 'application/json',
-            'Client-ID' => '7iy7i96fkbaja119twdsukgwno3hpo',
-            'Authorization' => 'Bearer 1j19r2tgjap0lrlp58oq529vs3p526',
+            'Client-ID' => 'YOUR CLIENT ID',
+            'Authorization' => 'Bearer YOUR TOKEN',
             'Content-Type' => 'text/plain'
         ],
         'body' => 'query games "Game Info" {
