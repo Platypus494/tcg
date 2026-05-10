@@ -1,0 +1,12 @@
+{
+    "name": "mateo/projet_axe",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\":"src/"
+        }
+    }
+}
