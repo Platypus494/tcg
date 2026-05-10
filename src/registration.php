@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+echo "<div class='dark-mode'><br><br><br><br>";
 try {
     $pdo = new PDO('mysql:host=localhost;dbname=utilisateurs', 'root', '');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
